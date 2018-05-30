@@ -1,0 +1,30 @@
+{
+  "name": "@umm/cafu_resume_pause",
+  "version": "0.0.0",
+  "description": "Resume Pause interface for handling game playing state",
+  "homepage": "https://github.com/umm-projects/cafu_resume_pause",
+  "bugs": {
+    "url": "https://github.com/umm-projects/cafu_resume_pause/issues"
+  },
+  "scripts": {
+    "umm:init": "umm-init",
+    "umm:generate_assembly_definition": "umm-generate_assembly_definition",
+    "umm:module:install": "umm-module-install",
+    "umm:module:uninstall": "umm-module-uninstall",
+    "postinstall": "npm run --silent umm:module:install",
+    "postuninstall": "npm run --silent umm:module:uninstall"
+  },
+  "author": "Takuma Maruyama",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:umm-projects/cafu_resume_pause"
+  },
+  "files": [
+    "Assets"
+  ],
+  "dependencies": {
+    "@umm/scripts": "umm-projects/scripts#^1.0.0"
+  },
+  "devDependencies": {}
+}
