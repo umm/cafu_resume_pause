@@ -1,0 +1,10 @@
+{
+    "name": "umm@cafu_resume_pause",
+    "references": [
+        "umm@cafu_core"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
