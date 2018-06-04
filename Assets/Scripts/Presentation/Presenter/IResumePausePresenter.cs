@@ -1,4 +1,5 @@
-﻿using CAFU.Core.Presentation.Presenter;
+﻿using System;
+using CAFU.Core.Presentation.Presenter;
 
 namespace CAFU.ResumePause.Presentation.Presenter
 {
@@ -10,7 +11,7 @@ namespace CAFU.ResumePause.Presentation.Presenter
 
         bool IsPlaying { get; }
 
-        UniRx.IObservable<bool> IsPlayingAsObservable { get; }
+        IObservable<bool> IsPlayingAsObservable { get; }
     }
 
     public static class IResumePausePresenterExtension
