@@ -13,7 +13,7 @@
 ## Install
 
 ```shell
-yarn add "umm-projects/cafu_resume_pause#^1.0.0"
+yarn add "umm/cafu_resume_pause#^1.0.0"
 ```
 
 ## Usage
