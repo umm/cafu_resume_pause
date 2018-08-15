@@ -1,6 +1,6 @@
 {
   "name": "@umm/cafu_resume_pause",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Resume Pause interface for handling game playing state",
   "homepage": "https://github.com/umm/cafu_resume_pause",
   "bugs": {
